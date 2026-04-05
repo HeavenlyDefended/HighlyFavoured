@@ -3,7 +3,7 @@
 ### Real-time sentiment-driven trading signals for Polymarket & Augur
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Website](https://img.shields.io/badge/Website-Live-brightgreen)](https://your-site.netlify.app)
+[![Website](https://img.shields.io/badge/Website-Live-brightgreen)](https://aesthetic-strudel-e472a9.netlify.app)
 [![Stripe](https://img.shields.io/badge/Payments-Stripe-635bff)](https://stripe.com)
 
 ![Prediction Market Scanner Demo](https://via.placeholder.com/800x400?text=Prediction+Market+Scanner+Dashboard)
@@ -31,9 +31,7 @@
 
 ## 🚀 Live Demo
 
-**Visit the live scanner:** [https://your-site.netlify.app](https://your-site.netlify.app)
-
-*Replace `your-site.netlify.app` with your actual Netlify URL*
+**Visit the live scanner:** [https://aesthetic-strudel-e472a9.netlify.app](https://aesthetic-strudel-e472a9.netlify.app)
 
 ---
 
@@ -44,10 +42,42 @@
 | HTML5/CSS3 | Frontend structure & styling |
 | JavaScript (ES6) | Dynamic content & API integration |
 | Stripe | Payment processing for Premium tier |
-| Netlify/Vercel | Hosting (recommended) |
+| Netlify | Hosting |
 | Polymarket API | Market data |
 | Augur API | Market data (optional) |
 | PRAW (Python) | Reddit scraping (backend) |
+
+---
+
+## 💳 Premium Subscription
+
+Unlock the full power of Prediction Market Scanner with a **Premium subscription**:
+
+### Premium Features ($49/month)
+
+- ✅ **Real-time signals** as they fire (no delay)
+- ✅ **Full confidence scores** & reasoning
+- ✅ **Email & Discord alerts** (instant notifications)
+- ✅ **Priority market filters** (by liquidity, volume)
+- ✅ **Weekly performance report** of all signals
+- ✅ **Telegram bot integration** (optional)
+- ✅ **Cancel anytime** — no lock-in
+- ✅ **7-day money-back guarantee**
+
+### 🔗 Subscribe Now
+
+**Click here to subscribe:** [https://buy.stripe.com/aFa28raos9lneS39AL5Vu03](https://buy.stripe.com/aFa28raos9lneS39AL5Vu03)
+
+### What Happens After Payment?
+
+1. You'll receive a confirmation email from Stripe
+2. Within 24 hours, you'll get access to:
+   - Private Telegram channel with instant alerts
+   - Discord webhook for community trading
+   - Daily email digest of all signals
+   - Full web dashboard access
+
+*Need instant access? Email support@predictionscanner.com after purchasing.*
 
 ---
 
