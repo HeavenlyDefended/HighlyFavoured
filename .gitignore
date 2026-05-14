@@ -1,13 +1,32 @@
-node_modules
-dist
+# Dependencies
+node_modules/
+package-lock.json
+
+# Environment variables (contains secrets - never commit!)
 .env
+.env.local
+.env.*.local
+
+# Generated outputs
+output/
+*.html
+*.pdf
+*.json
+!package.json
+
+# Logs
 *.log
+npm-debug.log*
+
+# OS files
 .DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# NEO specific
+~/.automaton/
 *.db
 *.db-journal
-*.db-wal
-*.db-shm
-*.tgz
-.automaton/wallet.json
-.automaton/state.db
-
