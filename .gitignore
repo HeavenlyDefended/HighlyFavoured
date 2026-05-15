@@ -46,3 +46,18 @@ Thumbs.db
 *.tmp
 *.temp
 .cache/
+
+# Neo automation safety
+output/
+dist/
+logs/
+*.log
+node_modules/
+
+
+# Neo automation safety
+output/
+dist/
+logs/
+*.log
+node_modules/
