@@ -22,7 +22,7 @@ export async function publishToGumroad(filePath, title, description, price = 4.9
   form.append('price', price);
   form.append('file', fs.createReadStream(filePath));
   form.append('custom_permalink', title.toLowerCase().replace(/[^a-z0-9]+/g, '-').slice(0, 40));
-  form.append('tags[]', ['digital product', 'ai generated', 'travel', 'crypto']);
+  form.append("tags", tags.join(","))
 
   try {
     console.log(`📤 Publishing to Gumroad: ${title}`);
