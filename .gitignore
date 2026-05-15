@@ -1,32 +1,48 @@
 # Dependencies
 node_modules/
 package-lock.json
+pnpm-lock.yaml
 
-# Environment variables (contains secrets - never commit!)
-.env
-.env.local
-.env.*.local
+# Build outputs
+dist/
+build/
+*.tsbuildinfo
 
-# Generated outputs
+# Generated products (IMPORTANT - these are large)
 output/
+neo-products/
 *.html
 *.pdf
 *.json
 !package.json
 
+# NEO core files
+~/.automaton/
+*.db
+*.db-journal
+
+# Environment & secrets
+.env
+.env.local
+.env.*.local
+
 # Logs
+logs/
 *.log
 npm-debug.log*
 
 # OS files
 .DS_Store
 Thumbs.db
+*.swp
+*.swo
 
 # IDE files
 .vscode/
 .idea/
+*.sublime-*
 
-# NEO specific
-~/.automaton/
-*.db
-*.db-journal
+# Temporary files
+*.tmp
+*.temp
+.cache/
