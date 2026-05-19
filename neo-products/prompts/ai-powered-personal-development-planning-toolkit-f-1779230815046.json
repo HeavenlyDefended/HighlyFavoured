@@ -1,0 +1,72 @@
+[
+  {
+    "title": "Goal Setting for African Professionals",
+    "prompt": "Create a detailed personal development plan for an African professional looking to advance in the tech industry, focusing on specific skills, networking opportunities, and educational resources.",
+    "use_case": "Helps professionals identify actionable steps and resources for career advancement."
+  },
+  {
+    "title": "Cultural Context in Personal Development",
+    "prompt": "Outline a personal development strategy that incorporates African cultural values and practices while focusing on individual growth and community contribution.",
+    "use_case": "Aids individuals in aligning personal goals with cultural heritage."
+  },
+  {
+    "title": "Overcoming Challenges in Personal Growth",
+    "prompt": "Identify common personal development challenges faced by Africans and suggest practical solutions or resources to overcome these obstacles.",
+    "use_case": "Provides insights into addressing specific barriers in personal growth."
+  },
+  {
+    "title": "Mentorship Opportunities",
+    "prompt": "Generate a list of potential mentorship programs and networks available for young Africans in various sectors, including how to approach mentors effectively.",
+    "use_case": "Assists individuals in finding mentorship to accelerate their career growth."
+  },
+  {
+    "title": "Skill Development Framework",
+    "prompt": "Develop a framework for skill development tailored to African entrepreneurs, including essential skills, courses, and experiential learning opportunities.",
+    "use_case": "Guides entrepreneurs in building relevant skills for business success."
+  },
+  {
+    "title": "Work-Life Balance Strategies",
+    "prompt": "Propose actionable strategies for achieving work-life balance for Africans in demanding jobs, considering local cultural expectations and modern lifestyle challenges.",
+    "use_case": "Helps individuals maintain a healthy balance between professional and personal life."
+  },
+  {
+    "title": "Digital Literacy Enhancement",
+    "prompt": "Design a step-by-step plan to improve digital literacy among African youth, including online resources, workshops, and community initiatives.",
+    "use_case": "Facilitates access to essential digital skills for personal and professional development."
+  },
+  {
+    "title": "Financial Literacy for Personal Growth",
+    "prompt": "Create a personal development plan that incorporates financial literacy education for Africans, detailing resources, workshops, and practical exercises.",
+    "use_case": "Empowers individuals with financial knowledge necessary for personal and career improvement."
+  },
+  {
+    "title": "Health and Wellness Integration",
+    "prompt": "Outline a personal development plan that integrates health and wellness practices suitable for African lifestyles, including physical, mental, and emotional well-being.",
+    "use_case": "Promotes holistic development by addressing health alongside personal growth."
+  },
+  {
+    "title": "Networking Strategies for Success",
+    "prompt": "List effective networking strategies for Africans looking to connect with industry leaders and peers, including tips for online and offline networking.",
+    "use_case": "Enhances networking skills for career advancement and relationship building."
+  },
+  {
+    "title": "Continuous Learning Plan",
+    "prompt": "Devise a continuous learning plan for African professionals that includes online courses, certifications, and reading materials relevant to their career goals.",
+    "use_case": "Encourages lifelong learning and skill enhancement."
+  },
+  {
+    "title": "Feedback Incorporation Techniques",
+    "prompt": "Suggest methods for Africans to seek and incorporate constructive feedback into their personal development plans effectively.",
+    "use_case": "Enhances personal growth through the use of feedback."
+  },
+  {
+    "title": "Personal Branding for African Youth",
+    "prompt": "Create a guide on building a personal brand for young Africans, including social media strategies and offline presence tips.",
+    "use_case": "Aids individuals in establishing a strong personal brand to enhance career prospects."
+  },
+  {
+    "title": "Time Management Skills Development",
+    "prompt": "Design a comprehensive approach for improving time management skills for Africans, including tools, techniques, and practices that fit local contexts.",
+    "use_case": "Helps individuals manage their time more effectively for personal and professional productivity."
+  }
+]
