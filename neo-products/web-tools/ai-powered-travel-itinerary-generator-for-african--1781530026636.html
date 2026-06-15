@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI-Powered Travel Itinerary Generator for African Adventures</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+            background: linear-gradient(145deg, #1e1e1e, #2a2a2a);
+        }
+        h1 {
+            text-align: center;
+        }
+        input, select, button {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        input, select {
+            background-color: #333;
+            color: #fff;
+        }
+        button {
+            background-color: #007bff;
+            color: #ffffff;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .loading {
+            display: none;
+            text-align: center;
+        }
+        .error {
+            color: red;
+            display: none;
+            text-align: center;
+        }
+        .itinerary {
+            margin-top: 20px;
+            padding: 15px;
+            border: 1px solid #444;
+            border-radius: 5px;
+            background: rgba(255, 255, 255, 0.1);
+        }
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Africa Travel Itinerary Generator</h1>
+    <input type="text" id="destination" placeholder="Enter your destination (e.g., Kenya, South Africa)" required>
+    <select id="duration">
+        <option value="">Select Duration</option>
+        <option value="3">3 Days</option>
+        <option value="5">5 Days</option>
+        <option value="7">7 Days</option>
+    </select>
+    <button id="generateBtn">Generate Itinerary</button>
+    <div class="loading" id="loading">Generating itinerary...</div>
+    <div class="error" id="error">An error occurred. Please try again.</div>
+    <div class="itinerary" id="itinerary"></div>
+</div>
+
+<script>
+    document.getElementById('generateBtn').addEventListener('click', async () => {
+        const destination = document.getElementById('destination').value;
+        const duration = document.getElementById('duration').value;
+        const loading = document.getElementById('loading');
+        const errorDiv = document.getElementById('error');
+        const itineraryDiv = document.getElementById('itinerary');
+        
+        if (!destination || !duration) {
+            alert("Please fill in all fields.");
+            return;
+        }
+        
+        errorDiv.style.display = 'none';
+        itineraryDiv.innerHTML = '';
+        loading.style.display = 'block';
+
+        try {
+            const response = await fetch(`https://api.example.com/generate-itinerary?destination=${destination}&duration=${duration}`);
+            if (!response.ok) throw new Error('Network response was not ok');
+            const data = await response.json();
+            itineraryDiv.innerHTML = `<h3>Your Itinerary:</h3><pre>${JSON.stringify(data, null, 2)}</pre>`;
+        } catch (error) {
+            console.error('Error:', error);
+            errorDiv.style.display = 'block';
+        } finally {
+            loading.style.display = 'none';
+        }
+    });
+</script>
+
+</body>
+</html>
