@@ -1,0 +1,57 @@
+[
+  {
+    "title": "7-Day Adventure in Kenya",
+    "prompt": "Generate a 7-day travel itinerary for an adventure trip in Kenya, including activities such as safari tours, cultural experiences, and visits to national parks. Ensure the itinerary highlights popular destinations like Nairobi, Maasai Mara, and Lake Nakuru.",
+    "use_case": "Helps travelers plan an adventurous trip to Kenya with a focus on wildlife and culture."
+  },
+  {
+    "title": "Luxury Retreat in Cape Town",
+    "prompt": "Create a luxury travel itinerary for 5 days in Cape Town, South Africa, focusing on high-end accommodations, fine dining, and exclusive experiences. Include visits to Table Mountain, Robben Island, and the Cape Winelands.",
+    "use_case": "Assists travelers seeking a luxurious experience in Cape Town with curated recommendations."
+  },
+  {
+    "title": "Family-Friendly Vacation in Tanzania",
+    "prompt": "Design a family-friendly travel itinerary for a week in Tanzania that includes educational activities, wildlife experiences, and relaxation. Incorporate visits to Serengeti, Ngorongoro Crater, and Zanzibar.",
+    "use_case": "Aids families in planning a balanced vacation with both fun and educational elements."
+  },
+  {
+    "title": "Cultural Journey Through Morocco",
+    "prompt": "Outline a 10-day cultural itinerary in Morocco that covers cities like Marrakech, Fes, and Chefchaouen. Include local experiences such as cooking classes, market visits, and historical tours.",
+    "use_case": "Helps travelers immerse themselves in Moroccan culture through structured activities."
+  },
+  {
+    "title": "Historical Tour of Egypt",
+    "prompt": "Generate a 6-day travel itinerary focused on the historical sites of Egypt, including Cairo, Luxor, and Aswan. Highlight visits to the Pyramids, the Egyptian Museum, and temples along the Nile.",
+    "use_case": "Facilitates history enthusiasts in exploring Egypt's rich past."
+  },
+  {
+    "title": "Eco-Tourism in Madagascar",
+    "prompt": "Create a 7-day eco-tourism itinerary for Madagascar, featuring sustainable travel options, wildlife conservation activities, and visits to unique ecosystems. Include places like Andasibe-Mantadia National Park and Nosy Be.",
+    "use_case": "Encourages environmentally conscious travelers to explore Madagascar responsibly."
+  },
+  {
+    "title": "Beach Getaway in Seychelles",
+    "prompt": "Design a romantic 5-day beach getaway itinerary in the Seychelles, focusing on secluded beaches, luxury resorts, and water activities. Include destinations like Mahé and La Digue.",
+    "use_case": "Helps couples plan a romantic vacation centered around relaxation and natural beauty."
+  },
+  {
+    "title": "Adventure and Culture in Ghana",
+    "prompt": "Outline a 7-day itinerary that combines adventure and cultural experiences in Ghana, including hikes, visits to historical slave forts, and local festivals. Highlight areas like Accra, Cape Coast, and Kumasi.",
+    "use_case": "Guides travelers looking for a mix of adventure and cultural immersion in Ghana."
+  },
+  {
+    "title": "Wildlife Safari in Botswana",
+    "prompt": "Generate a detailed 5-day itinerary for a wildlife safari in Botswana, featuring the Okavango Delta and Chobe National Park. Include activities like game drives, boat safaris, and bush walks.",
+    "use_case": "Helps travelers plan a thrilling wildlife experience in Botswana’s natural habitats."
+  },
+  {
+    "title": "Culinary Tour of Zambia",
+    "prompt": "Create a 6-day culinary itinerary in Zambia that explores local cuisine, cooking classes, and food markets. Include visits to Lusaka, Livingstone, and traditional Zambian villages.",
+    "use_case": "Assists food lovers in discovering the culinary delights of Zambia."
+  },
+  {
+    "title": "Spiritual Retreat in Ethiopia",
+    "prompt": "Design a spiritual retreat itinerary for 5 days in Ethiopia, focusing on ancient churches, monasteries, and cultural practices. Include visits to Lalibela, Gondar, and Addis Ababa.",
+    "use_case": "Helps travelers seeking spiritual enrichment through historical and religious sites."
+  }
+]
